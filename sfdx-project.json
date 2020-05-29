@@ -1,11 +1,19 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
-    }
-  ],
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "48.0"
+  "packageDirectories" : [ {
+    "path" : "force-app",
+    "default" : false
+  }, {
+    "path" : "Ganji-SFDXTEST",
+    "default" : true,
+    "package" : "Ganji-SFDXTEST",
+    "versionName" : "Ganji-SFDXTEST",
+    "versionNumber" : "1.0.0.0"
+  } ],
+  "namespace" : "",
+  "sfdcLoginUrl" : "https://login.salesforce.com",
+  "sourceApiVersion" : "48.0",
+  "packageAliases" : {
+    "Ganji-SFDXTEST" : "0Ho2x000000TNQCCA4",
+    "Ganji-SFDXTEST@1.0.0.0" : "04t2x000002Vf5EAAS"
+  }
 }
