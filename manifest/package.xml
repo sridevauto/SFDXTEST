@@ -3,47 +3,23 @@
     <version>48.0</version>
     <types>
         <members>ChangePasswordController</members>
-        <members>CommunitiesLandingController</members>
-        <members>CommunitiesLoginController</members>
-        <members>CommunitiesSelfRegConfirmController</members>
-        <members>CommunitiesSelfRegController</members>
-        <members>ForgotPasswordController</members>
-        <members>MyProfilePageController</members>
-        <members>SiteLoginController</members>
-        <members>SiteRegisterController</members>
+        <members>ChangePasswordControllerTest</members>
         <name>ApexClass</name>
     </types>
     <types>
-        <members>SiteFooter</members>
-        <members>SiteHeader</members>
-        <members>SiteLogin</members>
         <members>SitePoweredBy</members>
         <name>ApexComponent</name>
     </types>
     <types>
         <members>AnswersHome</members>
         <members>BandwidthExceeded</members>
-        <members>ChangePassword</members>
-        <members>CommunitiesLanding</members>
-        <members>CommunitiesLogin</members>
-        <members>CommunitiesSelfReg</members>
-        <members>CommunitiesSelfRegConfirm</members>
-        <members>CommunitiesTemplate</members>
-        <members>Exception</members>
-        <members>FileNotFound</members>
-        <members>ForgotPassword</members>
-        <members>ForgotPasswordConfirm</members>
-        <members>IdeasHome</members>
-        <members>InMaintenance</members>
-        <members>MyProfilePage</members>
-        <members>SiteLogin</members>
-        <members>SiteRegister</members>
-        <members>SiteRegisterConfirm</members>
-        <members>SiteTemplate</members>
         <members>StdExceptionTemplate</members>
-        <members>Unauthorized</members>
-        <members>UnderConstruction</members>
         <name>ApexPage</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <members>MY_Partner__c</members>
+        <name>CustomObject</name>
     </types>
     <types>
         <members>SiteSamples</members>
