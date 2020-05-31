@@ -1,27 +1,39 @@
 {
-  "packageDirectories" : [ {
-    "path" : "Ganji-SFDXTEST",
-    "default" : false,
-    "package" : "Ganji-SFDXTEST",
-    "versionName" : "Ganji-SFDXTEST",
-    "versionNumber" : "1.0.0.0"
-  }, {
-    "path" : "ModuleforTrain",
-    "default" : true,
-    "package" : "ModuleforTrain",
-    "versionName" : "ModuleforTrain",
-    "versionNumber" : "1.0.0.0"
-  }, {
-    "path" : "force-app",
-    "default" : false
-  } ],
-  "namespace" : "",
-  "sfdcLoginUrl" : "https://login.salesforce.com",
-  "sourceApiVersion" : "48.0",
-  "packageAliases" : {
-    "Ganji-SFDXTEST" : "0Ho2x000000TNQCCA4",
-    "Ganji-SFDXTEST@1.0.0.0" : "04t2x000002Vf5EAAS",
-    "ModuleforTrain" : "0Ho2x000000TNQMCA4",
-    "ModuleforTrain@1.0.0.0" : "04t2x000003Kab8AAC"
-  }
+    "packageDirectories": [
+        {
+            "path": "Ganji-SFDXTEST",
+            "default": false,
+            "package": "Ganji-SFDXTEST",
+            "versionName": "Ganji-SFDXTEST",
+            "versionNumber": "1.0.0.0"
+        },
+        {
+            "path": "ModuleforTrain",
+            "default": true,
+            "package": "ModuleforTrain",
+            "versionName": "ModuleforTrain",
+            "versionNumber": "1.0.0.0"
+        },
+        {
+            "path": "force-app",
+            "default": false
+        },
+        {
+            "path": "ModuleforTrain",
+            "package": "GanjiUnloackedpackage",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "48.0",
+    "packageAliases": {
+        "Ganji-SFDXTEST": "0Ho2x000000TNQCCA4",
+        "Ganji-SFDXTEST@1.0.0.0": "04t2x000002Vf5EAAS",
+        "ModuleforTrain": "0Ho2x000000TNQMCA4",
+        "ModuleforTrain@1.0.0.0": "04t2x000003Kab8AAC",
+        "GanjiUnloackedpackage": "0Ho2x000000TNQRCA4"
+    }
 }
